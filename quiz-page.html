@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='stylesheets/quiz.css'/>
+    <title></title>
+</head>
+<body>
+    <div id="quiz-box">
+        <div id="quiz-header">
+            <div id="quiz-header-logo" class="quiz-header-containers">
+                <img src="images/quiz/gl_logo_white_small.png" alt="game-leap-logo" id="game-leap-logo">
+            </div>
+            <div id="quiz-part-name-container" class="quiz-header-containers">
+                <span>Quiz</span>
+            </div>
+        </div>
+        <!--Here is step 1 (entrance) -->
+        <div id="quiz-step-1">
+        <div id="quiz-step-1-main">
+            <div id="quiz-step-1-main-text">
+                <span id="quiz-step-1-text">Are you ready</br> to check what did you learn and remember in this clip ?<br>
+            Do it with this fun and useful quiz.</span>
+            </div>
+        </div>
+        <div id="quiz-step-1-footer">
+            <div id="quiz-step-1-start-container">
+                <button id="quiz-step-1-go-button" class="quiz-step-1-buttons">GO Quiz</button>
+            </div>
+            <div id="quiz-entrance-skip-container">
+                <a href="#" id="quiz-step-1-skip-button" class="quiz-step-1-buttons">Skip</a>
+            </div>
+        </div>
+        </div>
+        <!--Here is step 2 (question + answers)-->
+        <div id="quiz-step-2">
+        <div id="quiz-question">
+            <div id="quiz-question-counter-container">
+                <span id="quiz-question-counter">1/5</span>
+            </div>
+            <div id="quiz-question-text-container">
+                <span id="quiz-question-text">Which of the characters is not strong counter to Slark ?</span>
+            </div>
+        </div>
+        <div id="quiz-answers">
+            <div id="quiz-answer-text">
+                <span >Select an Answer : </span>
+            </div>
+            <div id="quiz-answer-container-buttons">
+                <button class="quiz-answer-button quiz-answers-base">Doom</button>
+                <button class="quiz-answer-button quiz-answers-base">Spectre</button>
+                <button class="quiz-answer-button quiz-answers-base">Tusk</button>
+                <button class="quiz-answer-button quiz-answers-base">Spirit Breaker</button>
+            </div>
+        </div>
+        </div>
+        <!--Here is step 3 ( result)-->
+        <div id="quiz-step-3">
+            <div id="quiz-step-3-first-text">
+                <span>Quiz Result</span>
+            </div>
+            <div id="quiz-step-3-result-info">
+                <div class="quiz-step-3-info-box" id="quiz-step-3-info-quiz-name">
+                    <span class="quiz-step-3-info-header">Quiz name:</span>
+                    <span class="quiz-step-3-info">"The Nightcrawler Slark" -Picking /Counterpicking</span>
+                </div>
+                <div class="quiz-step-3-info-box" id="quiz-step-3-user-score">
+                    <span class="quiz-step-3-info-header">Your score:</span>
+                    <span class="quiz-step-3-info">You have 3 (60%) correct answers</span>
+                </div>
+                <div class="quiz-step-3-info-box" id="quiz-step-3-passing-score">
+                    <span class="quiz-step-3-info-header">Passing score:</span>
+                     <span class="quiz-step-3-info">To pass this quiz you must have 4 (80 %) correct answers</span>
+                </div>
+            </div>
+            <div class="quiz-step-3-info-final-box" id="quiz-step-3-final-result">
+                <span id="quiz-step-3-final-result-text">You will not pass this quiz!</span>
+            </div>
+            <div id="quiz-step-3-buttons">
+                <button id="quiz-step-3-button-continue" class="quiz-step-3-buttons">Continue</button>
+                <button id="quiz-step-3-button-retake" class="quiz-step-3-buttons">Retake Quiz</button>
+            </div>
+        </div>
+    </div>
+<script src="scripts/show-hidden-quiz.js">
+</script>
+</body>
+</html>

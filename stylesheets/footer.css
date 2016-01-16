@@ -1,0 +1,128 @@
+#footer{
+    position:relative;
+    height: 200px;
+    background-color: #1E2026;
+    color:#6D7477;
+    font-size:14px;
+}
+html{
+    font-family: Lato,sans-serif;
+}
+a{
+    cursor: pointer;
+}
+
+/*social menu*/
+#ft-socials-list{
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    margin-bottom: 5px;
+    margin-left: 22px;
+    position: relative;
+}
+.ft-social-container{
+    display: inline-block;
+    padding: 4px 13px 0 13px;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+
+}
+.ft-social-link{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url("../images/footer/SpriteSocial.png") no-repeat;
+}
+
+/*sprite*/
+#fb{
+    background-position:  -36px -0px ;
+}
+#fb:hover{
+    background-position: -2px -0px;
+}
+#twitter{
+    background-position:  -36px -34px ;
+}
+#twitter:hover{
+    background-position: -2px -34px;
+}
+#youtube{
+    background-position:  -36px -68px;
+}
+#youtube:hover{
+    background-position: -2px -68px;
+}
+
+/*first menu*/
+#ft-menu{
+    height: 38px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+}
+.ft-menu-button{
+    display: inline-block;
+    border-left: 1px solid rgba(90,96,114,.3);
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 59px;
+    padding-right: 60px;
+}
+
+#ft-button-signup{
+    border-right:1px solid rgba(90,96,114,.3);
+    padding-right: 59px;
+}
+.ft-menu-button:hover{
+    color: #FFF;
+}
+
+/*second menu*/
+#ft-second-menu{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 32px;
+    text-align: center;
+    vertical-align: middle;
+}
+.ft-second-menu-button{
+    display: inline-block;
+    border-left: 1px solid rgba(90,96,114,.3);
+    text-align: center;
+    vertical-align: middle;
+    margin-top:8px;
+    padding-right: 30px;
+    padding-left: 29px;
+}
+.ft-second-menu-button:hover{
+    color: #ffffff;
+}
+#dl-footer-feedback-btn{
+    border-right:1px solid rgba(90,96,114,.3);
+    padding-right: 29px;
+}
+/*text*/
+#ft-text{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+#ft-top-text{
+    padding: 0px 30px 3px;
+    font-size: 13px;
+
+}
+#dl-footer-last-row{
+    margin:0px;
+}
+
+
